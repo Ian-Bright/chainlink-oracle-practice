@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ian-Bright/chainlink-oracle-practice/issues"
   },
-  "homepage": "https://github.com/Ian-Bright/chainlink-oracle-practice#readme"
+  "homepage": "https://github.com/Ian-Bright/chainlink-oracle-practice#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
