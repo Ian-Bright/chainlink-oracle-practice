@@ -26,9 +26,9 @@ module.exports = {
       },
       network_id: '4',
     },
-    konvan: {
+    kovan: {
       provider: () => {
-        return new HDWalletProvider(process.env.MNEMONIC, `https://konvan.infura.io/v3/${process.env.INFURA}`)
+        return new HDWalletProvider(process.env.MNEMONIC, `https://kovan.infura.io/v3/${process.env.INFURA}`)
       },
       network_id: '42',
     }
@@ -42,7 +42,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: '0.6.10',
+      version: '0.6.7',
     },
 }
 }
