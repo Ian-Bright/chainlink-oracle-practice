@@ -1,2 +1,8 @@
+# abis
+blockchain/build/
+
+# env files
 .env
+
+# node
 node_modules

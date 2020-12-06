@@ -6,6 +6,6 @@ const APIConsumer = artifacts.require('APIConsumer')
 module.exports = deployer => {
     deployer.deploy(Migrations)
     // deployer.deploy(PriceConsumerV3)
-    deployer.deploy(RandomNumberConsumer)
-    // deployer.deploy(APIConsumer)
+    // deployer.deploy(RandomNumberConsumer)
+    deployer.deploy(APIConsumer)
 }
