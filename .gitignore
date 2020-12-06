@@ -1,8 +1,8 @@
-# abis
+# ABIs
 blockchain/build/
 
-# env files
+# ENV files
 .env
 
-# node
+# Node
 node_modules
